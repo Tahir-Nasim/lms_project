@@ -1,0 +1,15 @@
+/* Basic styles for the lesson view page */
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+}

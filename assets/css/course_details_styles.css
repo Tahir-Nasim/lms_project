@@ -1,0 +1,32 @@
+/* Basic styles for the course details page */
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}

@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+/* Progress Table Styles */
+section.progress {
+    margin: 30px auto;
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+td {
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section.progress {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+}
